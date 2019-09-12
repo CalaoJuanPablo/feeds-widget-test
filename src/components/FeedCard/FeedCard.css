@@ -1,0 +1,56 @@
+.FeedCard {
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	padding: 24px;
+}
+
+.FeedCard:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.FeedCard .user-info {
+	display: flex;
+	margin-bottom: 1em;
+}
+
+.FeedCard .user-info .avatar {
+	margin: 0;
+	margin-right: 8px;
+	width: 48px;
+	height: 48px;
+}
+
+.FeedCard .user-info .avatar img {
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.FeedCard .user-info p {
+	margin: 0;
+}
+
+.FeedCard .user-info .user-name a {
+	font-size: 16px;
+	color: #A5AFAF;
+}
+
+.FeedCard .message-body {
+	line-height: 1.5;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.FeedCard .author-name {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.FeedCard .post-date {
+	text-align: right;
+	font-size: 14px;
+	color: #A5AFAF;
+	margin: 0;
+}
