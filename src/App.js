@@ -3,7 +3,7 @@ import FeedList from './components/FeedList'
 import './App.css'
 
 const App = () => {
-	const feedUrl = 'http://api.massrelevance.com/MassRelDemo/kindle.json'
+	const feedUrl = 'https://api.massrelevance.com/MassRelDemo/kindle.json'
 	const numPost = 50
 	const intervalTime = 2000
 
